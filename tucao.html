@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/> 
+
+
+    <title>TuCao</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/style2.css" rel="stylesheet" type="text/css"/>
+    <script src="./js/jquery-2.1.3.min.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+    <!--引入数据库-->
+    <script type="text/javascript"  src="https://cdn1.lncld.net/static/js/av-mini-0.5.4.js" ></script>
+    <script type="text/javascript"  >
+        AV.initialize("x6hs7ogm9y571i5v48i9af2r7vj7pitp1b46o9kryliwvpwy", "38igpao6m51xzfh5l8pm3qpez5f87ir7ixg5vp1y6huyi79w");
+    </script>
+    <script type="text/javascript" src="./js/new.js"></script>
+</head>
+<body>
+<script>
+    window.onload = loadIn("tucao");
+    
+</script>
+<div class="allpage">
+    <nav class="navbar navbar-default" role="navigation">
+         <button type="button" class="navbar-toggle navbut" onclick="window.location='./objectin.html'"><p>N</p>
+        </button>
+         <button type="button" class="navbar-toggle navbut2" onclick="window.location='./index.html'"><p>B</p>
+        </button>
+        <p class="bigtitle navbar-brand">TuCao</p>
+    </nav>
+    <div id="alldanmu">
+
+    </div>
+    <div id="inputdanmu">
+        <form class="bs-example bs-example-form" role="form">
+            <div class="row"><br>
+                <div class="col-lg-12">
+                    <div class="input-group">
+                        <input type="text" class="form-control"id="bibi">
+               <span class="input-group-btn">
+                  <div  class="btn btn-default" onclick="getdanmu()">
+                      Go!
+                  </div>
+               </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
