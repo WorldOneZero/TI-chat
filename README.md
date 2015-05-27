@@ -20,4 +20,4 @@
 ![输入已有房间ID](https://github.com/WorldOneZero/TI-chat/blob/master/images/pic1.jpg)
 
 ****
-### 这是最初的版本!更多更完善的功能,敬请期待!**
+### 这是最初的版本!更多更完善的功能,敬请期待!!**
